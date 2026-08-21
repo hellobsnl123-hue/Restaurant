@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luna & Bean | Café</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <div class="logo-symbol">☾</div>
+
+            <div>
+                <h2>LUNA</h2>
+                <span>& BEAN</span>
+            </div>
+        </div>
+
+        <nav>
+            <button class="nav-btn active" data-page="home">Home</button>
+            <button class="nav-btn" data-page="menu">Menu</button>
+            <button class="nav-btn" data-page="story">Our Story</button>
+            <button class="nav-btn" data-page="contact">Contact</button>
+        </nav>
+
+        <button class="mobile-menu" id="mobileMenu">☰</button>
+
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <main>
+
+        <section class="page active-page" id="home">
+
+            <div class="home-left">
+
+                <span class="small-title">
+                    SPECIALTY COFFEE • SLOW MORNINGS
+                </span>
+
+                <h1>
+                    Coffee made
+                    <span>for slow moments.</span>
+                </h1>
+
+                <p>
+                    A little corner where handcrafted coffee,
+                    warm pastries and quiet conversations meet.
+                </p>
+
+                <div class="buttons">
+
+                    <button class="gold-btn page-link" data-page="menu">
+                        Explore Menu →
+                    </button>
+
+                    <button class="line-btn page-link" data-page="contact">
+                        Find Us
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="home-right">
+
+                <div class="coffee-glow"></div>
+
+                <div class="coffee-cup">
+                    ☕
+                </div>
+
+                <div class="floating-card">
+                    <span>Today's mood</span>
+                    <strong>Warm & Cozy</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MENU ================= -->
+
+        <section class="page" id="menu">
+
+            <div class="page-heading">
+
+                <span class="small-title">
+                    FROM OUR BAR
+                </span>
+
+                <h2>
+                    Sip something
+                    <span>beautiful.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="category-buttons">
+
+                <button class="category active" data-category="all">
+                    All
+                </button>
+
+                <button class="category" data-category="coffee">
+                    Coffee
+                </button>
+
+                <button class="category" data-category="food">
+                    Bites
+                </button>
+
+                <button class="category" data-category="dessert">
+                    Sweet
+                </button>
+
+            </div>
+
+
+            <div class="menu-container">
+
+                <div class="menu-item" data-type="coffee">
+
+                    <div class="menu-icon">☕</div>
+
+                    <div>
+                        <small>COFFEE</small>
+                        <h3>Velvet Latte</h3>
+                        <p>Espresso · steamed milk · vanilla</p>
+                    </div>
+
+                    <strong>₹180</strong>
+
+                </div>
+
+
+                <div class="menu-item" data-type="coffee">
+
+                    <div class="menu-icon">🥤</div>
+
+                    <div>
+                        <small>COFFEE</small>
+                        <h3>Moonlight Mocha</h3>
+                        <p>Dark chocolate · espresso · cream</p>
+                    </div>
+
+                    <strong>₹220</strong>
+
+                </div>
+
+
+                <div class="menu-item" data-type="food">
+
+                    <div class="menu-icon">🥐</div>
+
+                    <div>
+                        <small>BAKED</small>
+                        <h3>Butter Croissant</h3>
+                        <p>Flaky · buttery · freshly baked</p>
+                    </div>
+
+                    <strong>₹150</strong>
+
+                </div>
+
+
+                <div class="menu-item" data-type="food">
+
+                    <div class="menu-icon">🥪</div>
+
+                    <div>
+                        <small>BITES</small>
+                        <h3>Garden Toast</h3>
+                        <p>Sourdough · avocado · herbs</p>
+                    </div>
+
+                    <strong>₹260</strong>
+
+                </div>
+
+
+                <div class="menu-item" data-type="dessert">
+
+                    <div class="menu-icon">🍰</div>
+
+                    <div>
+                        <small>DESSERT</small>
+                        <h3>Midnight Cake</h3>
+                        <p>Dark chocolate · cream · cocoa</p>
+                    </div>
+
+                    <strong>₹240</strong>
+
+                </div>
+
+
+                <div class="menu-item" data-type="dessert">
+
+                    <div class="menu-icon">🍪</div>
+
+                    <div>
+                        <small>SWEET</small>
+                        <h3>Sea Salt Cookie</h3>
+                        <p>Chocolate · butter · sea salt</p>
+                    </div>
+
+                    <strong>₹120</strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STORY ================= -->
+
+        <section class="page" id="story">
+
+            <div class="story-visual">
+
+                <div class="big-moon">
+                    ☾
+                </div>
+
+                <div class="year-card">
+                    <strong>2018</strong>
+                    <span>Since</span>
+                </div>
+
+            </div>
+
+
+            <div class="story-content">
+
+                <span class="small-title">
+                    OUR LITTLE STORY
+                </span>
+
+                <h2>
+                    More than
+                    <span>just coffee.</span>
+                </h2>
+
+                <p>
+                    Luna & Bean started with a tiny coffee machine,
+                    two friends and a dream of creating a place
+                    where people could simply slow down.
+                </p>
+
+                <p>
+                    Today, we're still obsessed with the same things:
+                    beautiful coffee, honest ingredients and creating
+                    little moments worth remembering.
+                </p>
+
+                <div class="quote">
+                    “Stay a little longer.”
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="page" id="contact">
+
+            <div class="contact-left">
+
+                <span class="small-title">
+                    COME FIND US
+                </span>
+
+                <h2>
+                    Your favourite
+                    <span>corner awaits.</span>
+                </h2>
+
+                <div class="contact-details">
+
+                    <p>
+                        📍 18, Moon Street,<br>
+                        Chennai, Tamil Nadu
+                    </p>
+
+                    <p>
+                        🕐 Every day<br>
+                        8:00 AM — 10:30 PM
+                    </p>
+
+                    <p>
+                        ☎ +91 98765 43210
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <form id="bookingForm">
+
+                <h3>Reserve a table</h3>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your name"
+                >
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Phone number"
+                >
+
+                <select id="people">
+
+                    <option value="">
+                        Number of people
+                    </option>
+
+                    <option>1 Person</option>
+                    <option>2 People</option>
+                    <option>3 People</option>
+                    <option>4 People</option>
+                    <option>5+ People</option>
+
+                </select>
+
+                <textarea
+                    id="message"
+                    placeholder="Any special request?"
+                ></textarea>
+
+                <button class="gold-btn" type="submit">
+                    Reserve Table →
+                </button>
+
+                <p id="successMessage"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <span>
+            LUNA & BEAN
+        </span>
+
+        <p>
+            Crafted for slow mornings ☕
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
